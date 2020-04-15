@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>WorldWide Services</title>		
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		
+		<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js'></script>
+		<script type='text/javascript' src='javascripts/jquery.tipsy.js'></script>
+		<script type='text/javascript'>
+		$(function() {
+			$('#tipsy').tipsy({fade: true, gravity: 's'});
+		});
+		</script>
+		<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		
+	</head>
+	<body>
+		<div class="wrapper">
+			<!--<img src="images/logo.png" alt="YourLogo" title="YourLogo"/><![endif]-->
+
+			<div class="hr"></div>
+			<h1>Estamos construindo esse site!</h1>
+			<p> Infelizmente, ainda não estamos prontos. <strong> Mas, você pode ver nosso progresso abaixo:</strong></p>
+						
+			<section class="progress">
+				<div class="progress-bar-container" id="tipsy" title="50% Completo"> <!-- Edit this title for the tooltip pop up -->
+					<article class="progress-bar" style="width:50%"  ></article> <!-- Edit the width percentage value to indicate progress -->
+				</div>
+				<article class="txt-launch-day-hat"></article>
+			</section>
+			
+			<div class="hr"></div>
+			<section class="mailing-list">
+				<h2>Quer ser o primeiro a saber quando estivermos prontos?</h2>
+				<form>
+					<input type="text" value="seuemail@email.com" onfocus="if(!this._haschanged){this.value=''};this._haschanged=true;">
+					<input type="submit" value="Subscribe">	
+				</form>
+			</section><div class="clear"></div>
+			<div class="hr"></div>
+			
+			
+		</div>
+	</body>
+</html>
