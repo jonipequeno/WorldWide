@@ -131,12 +131,12 @@ section {
 }
 
 .top-header {
-  background-color: ##C2FFFE;
+  background-color: #030f07;
   padding: 10px 0;
 }
 
 .top-header span {
-  color: #000;
+  color: rgb(255, 254, 254);
   display: inline-block;
   font-size: 11px;
   font-weight: 300;
@@ -370,9 +370,11 @@ section {
     padding: 60px 0;
   }
 }
-
+.banner{
+  background-color: #B4BCBF;
+}
 .banner02 {
-  background-color: #f1ff97;
+  background-color: #eae2d8;
 }
 
 .banner02 .banner-content h1 {
@@ -756,7 +758,7 @@ section {
 }
 
 .footer {
-  background-color: #ffe97a;
+  background-color: #e9e2d8;
 }
 
 .footer .widget .widget-title {
